@@ -18,13 +18,12 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - comtypes >=1.1.10  # [win]
-    - __win    # [win]
+    - comtypes >=1.1.10
   run:
     - python >=3.8
     - typing
-    - comtypes >=1.1.10  # [win]
-    - __win    # [win]
+    - comtypes >=1.1.10
+    - __win
 
 test:
   imports:
