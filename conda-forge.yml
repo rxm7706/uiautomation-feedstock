@@ -8,3 +8,4 @@ noarch_platforms:
 - win_64
 bot:
   automerge: true
+  inspection: update-all
