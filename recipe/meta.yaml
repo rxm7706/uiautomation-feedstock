@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install ./py/h2o_wave -vv --no-deps --no-build-isolation
   number: 1
 
 requirements:
@@ -19,6 +19,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - comtypes >=1.1.10
+    - setuptools
   run:
     - python >={{ python_min }}
     - typing
