@@ -18,17 +18,17 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - comtypes >=1.2.1  # [win]
+    - comtypes >=1.2.1
     - setuptools
   run:
     - python >={{ python_min }}
     - typing
-    - comtypes >=1.2.1  # [win]
-    - __win  # [win]
+    - comtypes >=1.2.1
+    - __win
 
 test:
   imports:
-    - uiautomation  # [win]
+    - uiautomation
   commands:
     - pip check
   requires:
