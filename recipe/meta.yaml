@@ -1,5 +1,5 @@
 {% set name = "uiautomation" %}
-{% set version = "2.0.28" %}
+{% set version = "2.0.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/uiautomation-{{ version }}.tar.gz
-  sha256: 472b8f4297e7b0d77acdcef6cdb499aee68b4e6179331593f98afb5e3fce36f9
+  sha256: 3c169112043ce21065aead1d79c3baebdafc9cf03bd24ded02b2db11d423d88d
 
 build:
   noarch: python
